@@ -1,0 +1,64 @@
+.container-img2
+{
+	width: 100%;
+	height: 600px;
+	margin-top: 0px;
+	background-size: cover;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;
+	background-repeat: no-repeat;  
+	background-image: url('../image/漫画背景1.png');
+}
+.container19
+{
+	text-align: center;
+	color: snow;
+}
+/* 第二区块 */
+.container20
+{
+	padding: 200px;
+	display: flex;
+	text-align: center;
+	width: 100%;
+	height: 500px;
+}
+.container-img3
+{
+	background-size: cover;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;
+	background-repeat: no-repeat;  
+	background-image: url('../image/漫画背景2.png');
+}
+/* 第一个区块的整个的背景图片 */
+.container-img4
+{
+	background-color: rgba(0, 0, 0, 1.0);
+	background-size: cover;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;
+	background-repeat: no-repeat;  
+	background-image: url('../image/漫画主背景1.png');
+}
+/* 第二个区块的整个的背景图片 */
+.container-img5
+{
+	background-image: url('../image/背景0.jpg');
+	background-size: 100% 66.5%;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: top;     
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;  
+}
+.container-img6
+{
+	width: 95%;
+	height: 580px;
+	margin-left: 15px;
+	background-size: cover;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;
+	background-repeat: no-repeat;  
+	background-image: url('../image/漫画背景3.png');
+}

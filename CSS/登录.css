@@ -1,0 +1,27 @@
+/* 登录按钮 */
+.divbig-inru
+{
+	width: 600px; 
+	height: 50px; 
+	margin-left: 250px;
+	border: none; 
+	border-radius: 25px; 
+	margin-top: 30px; 
+	text-align: center; 
+	background: rgba(239, 73, 139, 0.5);
+	transition: 0.3s;
+}
+.divbig-inru:hover
+{
+	color: rgba(0, 0, 0, 1.0);
+	background: rgba(238, 72, 99, 1.0);
+}
+/* 输入文本框设置 */
+.input-in
+{
+	width: 600px;
+	margin-left: 280px;
+	outline-style: none;
+	border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 1.0);
+}

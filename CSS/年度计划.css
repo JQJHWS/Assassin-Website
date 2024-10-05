@@ -1,0 +1,329 @@
+/* 设置主题背景颜色 */
+body
+{
+	/* 设置背景图片 */
+	background-image: url('../image/主背景.jpg');    
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */  
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	max-width: 1400px;
+	/* 设置始终居中 */
+	margin: 0 auto;
+	position: relative;
+}
+/* 侧边导航栏 */
+.nav-right
+{
+	width: 80px;
+	height: 300px;
+	position: fixed;
+	right: 0px;
+	bottom: 150px;
+	text-align: center;
+	font-size: 12px;
+}
+/* 侧边导航栏条目 */
+/* 最上面的 */
+.nav-right1
+{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	transition: 0.5s;
+	color: snow;
+	line-height: 50px;
+	background: rgba(34, 68, 30, 0.5);
+	border: none;
+	border-top-left-radius: 25px;
+	border-bottom: 1px solid snow;
+}
+/* 中间的 */
+.nav-right2
+{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	transition: 0.5s;
+	color: snow;
+	line-height: 50px;
+	background: rgba(34, 68, 30, 0.5);
+	border: none;
+	border-bottom: 1px solid snow;
+}
+/* 最下面的 */
+.nav-right3
+{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	transition: 0.5s;
+	color: snow;
+	line-height: 50px;
+	background: rgba(34, 68, 30, 0.5);
+	border: none;
+	border-bottom-left-radius: 25px;
+}
+.nav-right1:hover
+{
+	background: rgba(69, 183, 135, 1.0);
+}
+.nav-right2:hover
+{
+	background: rgba(69, 183, 135, 1.0);
+}
+.nav-right3:hover
+{
+	background: rgba(69, 183, 135, 1.0);
+}
+/* 设置视频 */
+.video1
+{
+	width: 100%;
+}
+/* 导航栏位置设置 */
+.nav-pos
+{
+	position: absolute;
+	top: 0px;
+	background: rgba(0, 0, 0, 1.0);
+}
+/* 设置导航栏的样式 */
+.nav1
+{
+	margin-top: -16px;
+	height: 20px;
+}
+/* 设置导航栏列表样式 */
+.nav-ul1
+{
+	/* 设置隐藏标识符 */
+	list-style-type: none;
+	font-size: 15px;
+	align-items: center;
+	display: flex;
+}
+.nav-li1
+{
+	text-align: center;
+	transition: 0.5s;
+}
+.nav-li1:hover
+{
+	background: rgba(69, 183, 135, 1.0);
+}
+/* 容器 */
+.container0
+{
+	margin-top: 30px;
+	vertical-align: middle;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+}
+.container1
+{
+	height: 70px;
+	/* background: rgba(21, 35, 27, 1.0); */
+}
+.container2
+{
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 30px;
+	color: snow;
+	height: 400px;
+	width: 100%;
+}
+.container3
+{
+	margin-left: 46%;
+	margin-right: 45%;
+	text-align: center;
+	background: rgba(71, 72, 76, 1.0);
+	width: 150px;
+	height: 50px;
+}
+.container4
+{
+	text-shadow: 0px 10px 20px black;
+	text-align: center;
+	margin-top: 0px;
+	color: snow;
+	background: rgba(0, 0, 0, 1.0);
+}
+.container5
+{
+	text-align: center;
+	margin-top: 0px;
+	color: snow;
+	/* background: rgba(0, 0, 0, 1.0); */
+}
+.container6
+{
+	height: 800px;
+	display: flex;
+	text-align: left;
+	margin-top: 0px;
+	color: snow;
+	/* background: rgba(0, 0, 0, 1.0); */
+}
+/* 季票内容背景图 */
+.container6-1
+{
+	background-color: rgba(0, 0, 0, 1.0);
+	background-image: url(../image/季票背景图1.png);
+	background-size: 100% 700px;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;  
+	/* 设置背景图片不重复 */  
+	background-repeat: no-repeat;  
+}
+.container6-2
+{
+	background-color: rgba(0, 0, 0, 1.0);
+	background-image: url(../image/季票背景图2.png);
+	background-size: 100% 800px;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;  
+}
+/* 新闻 */
+.container7
+{
+	width: 100%;
+	color: snow;
+	text-align: center;
+	margin-top: 0px;
+}
+/* 新闻条目 */
+.container8
+{
+	/* background-color: rgba(0, 0, 0, 1.0); */
+	background-image: url(/image/季票背景图2.png);
+	background-size: 100% 800px;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;  
+	
+	text-align: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: -40px;
+	height: 500px;
+	/* 设置隐藏标识符 */
+	list-style-type: none;
+	display: flex;
+}
+.container9
+{
+	background-color: rgba(0, 0, 0, 1.0);
+	background-image: url(../image/背景0.jpg);
+	background-size: 100% 500px;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;  
+	
+	width: 25%;
+	height: 500px;
+	/* 设置边框 */
+	border-style: solid;
+	border-color: snow;
+	border-width: 1px;
+}
+/* 新闻图 */
+.img2
+{
+	width: 100%;
+}
+/* 导航栏背景图 */
+.container-img
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0, 0, 0, 1.0);
+	background-size: cover;
+	/* 设置背景图片位置 */  
+	background-position: center;
+	background-image: url('../image/导航栏背景1.png');
+}
+.container-img0
+{
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	/* 设置背景图片位置 */  
+	background-position: center;
+	background-image: url('../image/背景0.jpg');
+}
+.container-img1
+{
+	width: 100%;
+	height: 400px;
+	padding-top: 200px;
+	background-size: cover;
+	/* 设置背景图片位置 */  
+	background-position: center;
+	background-image: url('../image/背景1.jpg');
+}
+/* body背景图 */
+.container-bodyimg
+{
+	background-color: rgba(0, 0, 0, 1.0);
+	background-size: cover;
+	/* 设置背景图片位置 */  
+	background-position: center;
+	background-image: url('../image/主背景.png');
+}
+/* 超链接样式 */
+a
+{
+	color: snow;
+	line-height: 10px;
+	text-decoration: none;
+}
+/* 底部导航栏超链接设置 */
+.a1
+{
+	font-size: 12px;
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+/* 辅助用 */
+.div1
+{
+	width: 100%;
+}
+.div2
+{
+	background: gray;
+	transition: 0.5s;
+}
+.div2:hover
+{
+	background: rgba(69, 183, 135, 1.0);
+	transform: scale(1.2);
+}
+/* img放大用 */
+.imgbig
+{
+	transition: 0.5s;
+}
+.imgbig:hover
+{
+	transform: scale(1.05);
+}
+/* div放大用 */
+.divbig
+{
+	transition: 0.5s;
+}
+.divbig:hover
+{
+	transform: scale(1.05);
+}

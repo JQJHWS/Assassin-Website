@@ -1,0 +1,122 @@
+/* 设置主题背景颜色 */
+body
+{
+	/* 设置背景图片 */
+	background-image: url('../image/主背景.jpg');    
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */  
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+}
+/* 第一个新闻设置 */
+.container10
+{
+	display: flex;
+	text-align: center;
+	width: 50%;
+	height: 300px;
+}
+/* 边框 */
+.container11
+{
+	/* background-image: url('../image/新闻网页背景1.png'); */
+	/* background-size: cover; */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	/* background-position: center; */
+	/* background-color: rgba(0, 0, 0, 1.0); */
+	/* background-repeat: no-repeat;  */
+	/* background-size: 1400px 500px; */
+
+	display: flex;
+	/* 设置边框 */
+	border-style: solid;
+	border-color: snow;
+	border-width: 1px;
+	width: 80%;
+	height: 400px;
+}
+/* 其它新闻 */
+.container12
+{
+	display: flex;
+	width: 60%;
+	height: 380px;
+}
+/* 新闻图片设置 */
+.img3
+{
+	width: 50%;
+	height: 70%;
+	/* 设置边框 */
+	border-style: solid;
+	border-color: snow;
+	border-width: 1px;
+}
+/* 新闻文字设置 */
+.container13
+{
+	width: 50%;
+}
+/* 探索更多 */
+.container14
+{
+	color: snow;
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	margin-top: 100px;
+	padding-top: 50px;
+	/* 设置边框 */
+	border-top: 1px solid snow;
+	border-bottom: 1px solid snow;
+}
+/* 图片 */
+.img4
+{
+	width: 600px;
+	height: 280px;
+}
+/* 文字 */
+.container15
+{
+	text-align: left;
+	font-size: 15px;
+}
+.container16
+{
+	text-align: left;
+	font-size: 15px;
+}
+/* 新闻底部背景 */
+.container17
+{
+	background-image: url('../image/新闻底部背景.png');
+	background-size: cover; 
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;
+	background-color: rgba(0, 0, 0, 1.0);
+	background-repeat: no-repeat;  
+	background-size: 100% 500px;
+}
+/* 第一个新闻的背景1 */
+.container18
+{
+	/* background-color: rgba(0, 0, 0, 1.0); */
+	background-image: url(../image/背景0.jpg);
+	background-size: 100% 66.5%;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: top;     
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;  
+}
+/* 平移变换 */
+.moving1
+{
+	transform: translate(50px,0px);
+}
+/* 轮播图片 */
+.row
+{
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}

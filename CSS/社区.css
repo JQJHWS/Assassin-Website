@@ -1,0 +1,280 @@
+.container-img8
+{
+	color: snow;
+	width: 100%;
+	height: 320px;
+	text-align: center;
+	margin-top: 0px;
+	background-size: cover;
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;
+	background-repeat: no-repeat;  
+	background-image: url('../image/社区背景图1.png');
+}
+/* 问题盒子 */
+.container21
+{
+	width: 100%;
+	padding: 30px;
+	/* 设置内边距的同时让字符不再变大 */
+	box-sizing: border-box;
+}
+/* 问题条目盒子 */
+.container22
+{
+	width: 95%;
+	height: 60px;
+	padding: 15px;
+	/* 设置内边距的同时让字符不再变大 */
+	box-sizing: border-box;
+	line-height: 30px;
+	border-top: 1px solid rgba(71, 75, 76, 0.3);
+	border-right: 1px solid rgba(71, 75, 76, 0.3);
+	border-bottom: 1px solid rgba(71, 75, 76, 0.3);
+	color: rgba(0, 0, 0, 1.0);
+	background: rgba(71, 75, 76, 0.1);
+	border-left: 10px solid red;
+	margin-bottom: 10px;
+}
+/* 账户部分 */
+/* 正方形 */
+.container23-1
+{
+	width: 320px;
+	height: 320px;
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	text-align: left;
+	border: none;
+	border-radius: 25px;
+	background-image: url('../image/社区背景图2.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+}
+.container23-2
+{
+	width: 320px;
+	height: 320px;
+	background: snow;
+	margin-left: 25px;
+	box-sizing: border-box;
+	text-align: left;
+	border: none;
+	border-radius: 25px;
+}
+/* 长方形 */
+.container24-1
+{
+	width: 640px;
+	height: 320px;
+	background: snow;
+	display: flex;
+	margin-left: 25px;
+	box-sizing: border-box;
+	text-align: left;
+	border: none;
+	border-radius: 25px;
+}
+.container24-1-img
+{
+	width: 50%;
+	height: 100%;
+	background-image: url('../image/社区背景图3.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.container24-2
+{
+	width: 640px;
+	height: 320px;
+	background: snow;
+	display: flex;
+	margin-left: 0px;
+	box-sizing: border-box;
+	text-align: left;
+	border: none;
+	border-radius: 25px;
+}
+.container24-2-img
+{
+	width: 50%;
+	height: 100%;
+	background-image: url('../image/社区背景图4.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+/* 游戏展示 */
+.container25
+{
+	width: 320px;
+	height: 500px;
+	background: snow;
+	display: block;
+	text-align: center;
+	border: none;
+	border-radius: 25px;
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.container25-1-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片1.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-2-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片2.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-3-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片3.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-4-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片4.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-5-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片5.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-6-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片6.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-7-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片7.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+.container25-8-img
+{
+	width: 100%;
+	height: 85%;
+	background-image: url('../image/社区游戏图片8.png');
+	background-size: cover; /* 或者使用 'contain' 来保持图片的宽高比 */
+	/* 设置背景图片的位置（如果需要的话）*/  
+	background-position: center;     
+	background-repeat: no-repeat;  
+	border: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 30px;
+}
+/* 辅助用 */
+/* 登录按钮 */
+.divbig-in
+{
+	width: 55px; 
+	height: 35px; 
+	border: none; 
+	border-radius: 25px; 
+	margin-top: 30px; 
+	text-align: center; 
+	background: rgba(239, 73, 139, 0.8);
+	transition: 0.3s;
+}
+.divbig-in:hover
+{
+	color: rgba(0, 0, 0, 1.0);
+	background: snow;
+}
+/* 平移变换 */
+.moving2
+{
+	transform: translate(0px,10px);
+}
+/* div放大用 */
+.divbig2
+{
+	transition: 0.5s;
+}
+.divbig2:hover
+{
+	transform: scale(1.05);
+	box-shadow: 10px 10px 10px gray;
+}
